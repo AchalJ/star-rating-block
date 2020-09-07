@@ -1,0 +1,27 @@
+{
+	"name": "star-rating",
+	"version": "1.0.0",
+	"description": "The Star Rating block allows you to display author-assigned star ratings within your content.",
+	"author": "Achal Jain, Mahbub Hasan Imon",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format:js": "wp-scripts format-js",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"start": "wp-scripts start",
+		"packages-update": "wp-scripts packages-update"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^12.2.0",
+		"babel-plugin-transform-imports": "^2.0.0"
+	},
+	"dependencies": {
+		"@fortawesome/fontawesome-svg-core": "^1.2.30",
+		"@fortawesome/free-brands-svg-icons": "^5.14.0",
+		"@fortawesome/free-regular-svg-icons": "^5.14.0",
+		"@fortawesome/free-solid-svg-icons": "^5.14.0",
+		"@fortawesome/react-fontawesome": "^0.1.11"
+	}
+}
