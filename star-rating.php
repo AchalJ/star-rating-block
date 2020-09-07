@@ -4,6 +4,7 @@
  * Description:     The Star Rating block allows you to display author-assigned star ratings within your content.
  * Version:         1.0.0
  * Author:          Achal Jain, Mahbub Hasan Imon
+ * Author URI:  	https://achalj.github.io
  * License:         GPL-2.0-or-later
  * License URI:     https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:     ib-star-rating
