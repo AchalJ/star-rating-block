@@ -4,7 +4,7 @@
 	"description": "The Star Rating block allows you to display author-assigned star ratings within your content.",
 	"author": "Achal Jain, Mahbub Hasan Imon",
 	"license": "GPL-2.0-or-later",
-	"main": "build/index.js",
+	"main": "src/index.js",
 	"scripts": {
 		"build": "wp-scripts build",
 		"format:js": "wp-scripts format-js",

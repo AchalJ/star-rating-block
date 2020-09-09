@@ -4,12 +4,12 @@
 		"@babel/preset-react"
 	],
 	"plugins": [
-	  ["transform-imports", {
-		"@fortawesome/free-solid-svg-icons": {
-		  "transform": "@fortawesome/free-solid-svg-icons/${member}",
-		  "skipDefaultConversion": true,
-		  "preventFullImport": true
-		}
-	  }]
+		["transform-imports", {
+			"@fortawesome/free-solid-svg-icons": {
+				"transform": "@fortawesome/free-solid-svg-icons/${member}",
+				"skipDefaultConversion": true,
+				"preventFullImport": true
+			}
+		}]
 	]
 }
